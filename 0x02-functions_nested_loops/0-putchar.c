@@ -9,6 +9,6 @@ int main(void)
 {
 char _putchar;
 _putchar = '0';
-scanf("_putchar\n");
+scanf("_putchar",_putchar);
 return (0);
 }
