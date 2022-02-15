@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-scanf("_putchar\n");
+std::cout << "_putchar\n";
 return (0);
 }
