@@ -8,6 +8,5 @@
 int main(void)
 {
 scanf("_putchar\n");
-char long _putchar = '0';
 return (0);
 }
