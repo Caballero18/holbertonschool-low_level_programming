@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-	std:"cout" << "_putchar\n";
+
+char name[] ="_putchar";
+cout<<name;
+getch()
 return (0);
 }
