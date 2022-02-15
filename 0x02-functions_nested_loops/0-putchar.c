@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-std:cout << "_putchar\n";
+	std:"cout" << "_putchar\n";
 return (0);
 }
