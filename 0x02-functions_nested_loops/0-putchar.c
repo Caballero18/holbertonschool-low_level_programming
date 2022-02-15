@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-char _putchar;
-_putchar = '0';
-scanf("_putchar",_putchar);
+scanf("_putchar\n")
 return (0);
 }
