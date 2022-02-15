@@ -3,7 +3,7 @@
 /**
  * main - prints "_puchar"
  *
- * return: always 0
+ * Return: Always 0.
  */
 int main(void)
 {
