@@ -7,6 +7,8 @@
  */
 int main(void)
 {
+char nameP[] = "_putchar";
+int i = 0;
 scanf("_putchar\n");
 return (0);
 }
