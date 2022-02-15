@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-getch("_putchar\n")
+getch("_putchar\n");
 return (0);
 }
