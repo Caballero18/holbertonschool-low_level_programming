@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-char _putchar[];
-std::cout << "_putchar";
+_putchar("_putchar");
+return (0);
 }
