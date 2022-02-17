@@ -4,7 +4,7 @@
 /**
 * _isupper - function that check in uppercase.
 * @c: Variable that entry
-* Return: 1 
+* Return: 1
 */
 int _isupper(int c)
 {
