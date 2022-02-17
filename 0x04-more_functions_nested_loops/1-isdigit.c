@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+* _isupper - function that check in uppercase variable entry
+* @c: Variable that entry
+* Return: 1 if uppercase
+*/
+
+int _isdigit(int c);
+{
+	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	return (0);
+}
