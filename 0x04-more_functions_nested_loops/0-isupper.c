@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * _isupper - code.
  *
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ int _isupper(int c);
 
 	if (c >= 'A' && c <= 'Z')
 	{
-		return (1);
+		return(1);
 	}
 
 	return(0);
