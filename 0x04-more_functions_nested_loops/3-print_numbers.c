@@ -1,16 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_numbers - use putchar
- *
- */
-void print_numbers(void)
-{
-	int a;
+* print_numbers - prints numbers
+* Return: 0
+*/
 
-	for (a = '0'; a >= '9'; a++)
+void print_numbers(void)
+
+{
+	char x = '0';
+
+	while (x <= '9')
 	{
-		_putchar(a);
+		_putchar(x);
+		x++;
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
