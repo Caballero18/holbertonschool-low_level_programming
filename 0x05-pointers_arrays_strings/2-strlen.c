@@ -8,5 +8,9 @@
  */
 int _strlen(char *s)
 {
-	const char *s (16);
+	const char *s()
+	{
+		char *s[16] = "My first strlen!";
+		return (*s);
+	}
 }
