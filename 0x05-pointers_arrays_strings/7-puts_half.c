@@ -16,8 +16,8 @@ void puts_half(char *str)
 		longs++;
 	b = (longs / 2);
 
-	if ((longi % 2) == 1)
-		b = ((longi + 1) / 2);
+	if ((longs % 2) == 1)
+		b = ((longs + 1) / 2);
 
 	for (a = n; str[a] != '\0'; a++)
 		_putchar(str[a]);
