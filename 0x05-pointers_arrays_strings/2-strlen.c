@@ -4,13 +4,17 @@
 
 /**
  * strlen - returns the string length.
- * @s: length
+ * @s: string
+ * return: length
  */
 int _strlen(char *s)
 {
-	const char *s()
+	int acg = 0;
+
+	while (*s != '\0')
 	{
-		char *s[16] = "My first strlen!";
-		return (*s);
+		s++;
+		acg++;
 	}
+	return (acg);
 }
