@@ -19,7 +19,7 @@ void puts_half(char *str)
 	if ((longs % 2) == 1)
 		b = ((longs + 1) / 2);
 
-	for (a = n; str[a] != '\0'; a++)
+	for (a = b; str[a] != '\0'; a++)
 		_putchar(str[a]);
 	_putchar('\n');
 }
