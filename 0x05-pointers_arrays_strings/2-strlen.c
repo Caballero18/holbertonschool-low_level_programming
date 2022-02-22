@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
- * strlen - returns the string length.
+ * _strlen - returns the string length.
  * @s: string
- * return: length
+ * return: acg
  */
+
 int _strlen(char *s)
 {
 	int acg = 0;
