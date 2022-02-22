@@ -6,6 +6,9 @@ nclude "main.h"
  *     */
 void swap_int(int *a, int *b)
 {
-	*a = *a;
-	*a = *b;
+	int c;
+	c = a;
+	a = b;
+	b = c;
+
 }
