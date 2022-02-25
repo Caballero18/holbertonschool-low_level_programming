@@ -9,9 +9,9 @@
 char *cap_string(char *n)
 {
 	int i;
-	
+
 	i = 0;
-	
+
 	if (n[0] >= 'a' && n[0] <= 'z')
 	{
 		n[0] = n[0] - 32;
@@ -34,7 +34,7 @@ char *cap_string(char *n)
 			case ' ':
 			case '\n':
 			case '\t':
-				
+
 				if (n[i + 1] > 96 && n[i + 1] < 123)
 				{
 					n[i + 1] = n[i + 1] - 32;
