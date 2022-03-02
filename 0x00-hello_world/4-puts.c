@@ -2,6 +2,10 @@
 
 /**
  * main - puts
- * return: 0
+ * return: always 0 (sucess)
  */
-main 
+int main (void)
+{
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return(0);
+}
