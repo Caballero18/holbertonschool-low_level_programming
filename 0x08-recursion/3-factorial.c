@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * factorial - factory
  * @n: input
  * Return: Always 0 (Success)
  */
