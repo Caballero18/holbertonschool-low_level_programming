@@ -7,6 +7,7 @@
  * op_add - addition
  * @a: parameter passed from main
  * @b: parameter passed from main
+ * 
  * Return: result
  */
 
@@ -21,6 +22,7 @@ int op_add(int a, int b)
  * @b: parameter passed from main
  * Return: result
  */
+
 int op_sub(int a, int b)
 {
 	return (a - b);
@@ -30,6 +32,7 @@ int op_sub(int a, int b)
  * op_mul - multiplication
  * @a: parameter passed from main
  * @b: parameter passed from main
+ * 
  * Return: result
  */
 
@@ -42,8 +45,10 @@ int op_mul(int a, int b)
  * op_div - division
  * @a: parameter passed from main
  * @b: parameter passed from main
+ * 
  * Return: result
  */
+
 int op_div(int a, int b)
 {
 	if (b != 0)
@@ -57,6 +62,7 @@ int op_div(int a, int b)
  * @b: parameter passed from main
  * Return: result
  */
+
 int op_mod(int a, int b)
 {
 	if (b != 0)
