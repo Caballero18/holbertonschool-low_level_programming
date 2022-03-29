@@ -1,18 +1,19 @@
+#include "lists.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
-#include "lists.h"
 
 /**
- * print_list - function that prints
- * @h: pointer to the struct
+ * print_list - function that prints all the elements of a list_t list
+ * @h: pointer to the struct list_t
  *
  * Return: size_t
- *
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t count;
+
 
 	for (count = 0; h != NULL; count++)
 	{
@@ -22,5 +23,5 @@ size_t print_list(const list_t *h)
 			printf("[%i] %s\n", (*h).len, (*h).str);
 		h = (*h).next;
 	}
-		return (count);
+	return (count);
 }
